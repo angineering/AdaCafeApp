@@ -7,8 +7,6 @@ import {
 } from 'react-native';
 
 import CoffeeList from '../components/CoffeeList';
-import { MonoText } from '../components/StyledText';
-
 
 export default class HomeScreen extends React.Component {
   static navigationOptions = {
