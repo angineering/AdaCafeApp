@@ -106,8 +106,9 @@ export default class CoffeeList extends Component {
   }
 
   render() {
-    // Group the restaurants into rows with 2 columns, except for the
-    // first restaurant. The first restaurant is treated as a featured restaurant
+    // Group the coffee into rows with 2 columns,
+    // except for the first coffee.
+    // The first coffee is treated as a featured coffee.
     let isFirstArticle = true;
     const groupedData = GridRow.groupByRows(coffees, 2, () => {
       if (isFirstArticle) {
