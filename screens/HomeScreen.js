@@ -5,7 +5,6 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import { Tile, ImageBackground, Title, Subtitle, Divider } from '@shoutem/ui';
 
 import CoffeeList from '../components/CoffeeList';
 import { MonoText } from '../components/StyledText';
